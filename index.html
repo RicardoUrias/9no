@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Scroll y Click</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="anuncio"><span>Increibles ofertas y envio gratis a domicilio</span></div>
+    <nav class="nav">
+        <div class="logo">
+            <p class="logo1">Dhas</p>
+            <p class="logo2">cart</p>
+        </div>
+        <div class="links"> 
+            <a href="link">Categorias</a>
+            <a href="link">Carrito</a>
+            <a href="link">Nosotros</a>
+            <a href="link">Soporte</a>
+        </div>
+    </nav>
+
+    <div class="carrusel">
+        <div class="slide active" style="background-image: url('img/product-8779370_1280.png');"></div>
+        <div class="slide" style="background-image: url('img/pexels-athena-2983401.jpg');"></div>
+        <div class="slide" style="background-image: url('img/pexels-rodolfoclix-3031498.jpg');"></div>
+        <button class="arrow left" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="arrow right" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+    <div class="About">
+        <h2>Nosotros</h2>
+        <p>Dahscart fue fundada en 2015 con el objetivo de proporcionar productos ecológicos y sostenibles a nuestros clientes. Desde entonces, hemos crecido para convertirnos en un referente en el mercado de ecommerce verde, ofreciendo una amplia gama de productos que respetan el medio ambiente.</p>
+    </div>
+
+
+    <p class="EventScroll">Eventos Scroll y Click</p>
+    <button id="addElement">Agregra "Mike" Wazowski</button>
+    <div id="container">
+
+    </div> 
+
+    <div id="counter" class="sticky-counter">0</div>
+
+    <script src="scripts.js"></script>
+    <script src="carrusel.js"></script>
+    <script src="scrollnav.js"></script>
+</body>
+</html>
